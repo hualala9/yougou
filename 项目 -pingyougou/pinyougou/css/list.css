@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?7kkyc2');
+    src:  url('../fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?7kkyc2') format('truetype'),
+      url('../fonts/icomoon.woff?7kkyc2') format('woff'),
+      url('../fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  .header .sk_ico {
+      height:30px;
+  }
+
+ .sk_ico{
+    position: absolute;
+    left:200px;
+    top:40px;
+    width:90px;
+    border-left:#b3181c 1px solid;
+    text-align:center;
+} 
+.sk {
+    border-bottom:2px solid #b3181c;
+}
+.sk_list {
+    margin-left:20px;
+    display: inline-block;
+}
+.sk_list li{ 
+    height: 45px;
+    line-height:45px;
+    color:#292929;
+    font-weight: bold;
+    float:left;
+    margin-right:55px;
+    font-size:16px;
+}
+.sk_con li{
+    height: 45px;
+    line-height:45px;
+    font-family:icomoon;
+    font-size:14px;
+    color:#acacac;
+    float: left;
+    margin-right:32px;
+
+}
+.sk_con .sk_con_l2 {
+    color:#b4353e;
+}
+.sk_bd {
+    margin-top:25px;
+}
+.sk_bd ul{
+    clear: both;
+}
+.sk_bd li{
+    height:446px;
+    width:288px;
+    padding-top:3px;
+    margin-right:7px;
+    display:inline-block;
+    margin-bottom:9px;
+    
+}
+.sk_bd li:hover{
+    border:1px solid #de2221;
+}
+.sk_bd_img{
+    text-align:center;
+    height:290px;
+}
+.sk_bd_text {
+    margin-bottom:10px;
+}
+.sk_bd_text em {
+    font-size:13px;
+    color:#656565;
+}
+.sk_bd_pr{
+    margin-bottom:5px;
+}
+.sk_bd_pr strong em {
+    font-size:4px;
+    color:#dd0616;
+}
+.sk_bd_pr strong i {
+    font-size:18px;
+    color:#dd0616;
+}
+.sk_bd_pr strong s{
+    font-size:4px;
+    color:#656565;
+}
+.sk_bd_sale {
+    margin-bottom:5px;
+}
+.sk_bd_sale span{
+    color:#656565;
+    font-size:13px;
+}
+ .sk_bd_operate  {
+    height:50px;
+    line-height:50px;
+    font-size:20px;
+    text-align:center;
+    background-color:#b2191b;
+    
+}
+.sk_bd_operate a {
+    color:#e6b9bc;
+}
+.page{
+    height:66px;
+    margin:40px auto;
+    text-align: center;
+}
+.page_num a,
+.page_num .dotted {
+    display: inline-block;
+    height: 46px;
+    line-height:46px;
+    text-align:center;
+    width: 46px;
+    color:#333333;
+    background-color: #ffffff;
+    border:1px solid #cccccc;
+
+}
+.page_num .dotted {
+    border:1px solid transparent;
+}
+
+.page_num .page_pre,
+.page_num .pn_next{
+    width:121px;
+}
+.page_num a:hover {
+    background-color: gainsboro;
+    border: 1px solid transparent;
+}
+.page_skip input{
+    display: inline-block;
+    width: 62px;
+    height: 47px;
+    border:1px solid #cccccc;
+}
+.page_skip button {
+    width: 60px;
+    height: 45px;
+    background-color: #eeeeee;
+    border:1px solid #cccccc;
+    ;
+}

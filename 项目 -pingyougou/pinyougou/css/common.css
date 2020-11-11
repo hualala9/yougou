@@ -1,0 +1,332 @@
+/* 公共样式 */
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+
+}
+.w{
+    width:1200px;
+    margin:0 auto;
+}
+.shortcut{
+    background-color: #f1f1f1;
+    height: 30px;
+    margin:0;
+
+}
+.top{
+    line-height:30px;
+    font-size:12px;
+    
+}
+.top li{
+   padding-right:5px;
+   float:left;
+
+}
+.red{
+    color:#c9131f;
+}
+.fr .space{
+   margin:auto 10px;
+   
+}
+ @font-face {
+     font-family: 'icomoon';
+     src:  url('../fonts/icomoon.eot?7kkyc2');
+     src:  url('../fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'),
+       url('../fonts/icomoon.ttf?7kkyc2') format('truetype'),
+       url('../fonts/icomoon.woff?7kkyc2') format('woff'),
+       url('../fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+     font-weight: normal;
+     font-style: normal;
+   }
+   .shortcut .fr i{
+       font-family:icomoon;
+       font-size:12px;
+   }
+   /* header */
+   .header{
+       height:100px;
+       
+
+   }
+   .header_center {
+       position:relative;
+       height:110px;
+
+   }
+   .header .logo{
+       width:220px;
+       height:55px;
+       background:url('../img/logo.png') no-repeat;
+       position:absolute;
+       top:26px;
+       left:0;
+       font-size:0;
+       
+   }
+   .header .logo a{
+       width:175px;
+       height:56px;
+       display: inline-block;
+   }
+   .header .search{
+    height:33px;
+    width:538px;
+    border:2px solid #b2181a;
+     position:absolute;
+       left:348px;
+       top:32px;
+     
+   }
+   .header .search .text{
+       position:absolute;
+       top:0;
+       display:inline-block;
+       height:28px;
+       line-height:28px;
+       padding-top:2px;
+       width:454px;
+       outline-style: none;
+       /* border: 2px solid #b81729; */
+   
+   }
+   .header .search .button{
+       position:absolute;
+       top:0;
+       right:0;
+       border:none;
+       display:inline-block;
+       height:35px; 
+       width:80px;
+       background-color: #b2191b;
+       color:#d9c1c1;
+       font-size:16px;
+      
+   }
+   .header .hotwrods{
+       position:absolute;
+       left:348px;
+       top:70px;
+       font-size:12px;
+       height:30px;
+       margin-bottom:10px;
+       
+   }
+   .header .hotwrods li{
+       float:left;
+       margin:8px 12px;
+       color:666666;
+   }
+   .header .shopcar{
+       width:140px;
+       height:35px;
+       background-color: #f0f0f0;
+       position:absolute;
+       top:32px;
+       right:65px;
+   }
+   .header .shopcar i{
+       font-family: icomoon;
+       line-height:35px;
+       margin-left:10px;
+      
+     
+   }
+   .header .shopcar .shopnum{
+       height:15px;
+       line-height:15px;
+       color:#fffffd;
+       background-color: #e50112;
+       padding:0 2px;
+       position:absolute; 
+       left:98px;
+       top:-6px;
+       border-radius:7px 7px 7px 0;
+   }
+   .header .shopcar a{
+       font-size:14px;
+       margin-right:-3px;
+       line-height:35px;
+     
+   }
+
+   /* nav */
+   .nav{
+       height:70px;
+       position:relative;
+       border-bottom:2px solid #b3181c;
+   }
+.nav .dropdown {
+       position: absolute;
+       top:25px;
+   }
+ .nav .dropdown dt{
+       width: 210px;
+       height: 45px;
+       background-color: #b2191b;
+       font-size:16px;
+       color:#fff9f7;
+       line-height:45px;
+       text-align:center;
+
+
+   }
+   
+.nav .dropdown dd{
+       width: 210px;
+       height: 465px;
+       background-color: #c81622;
+      font-size:15px;
+
+ 
+    
+       
+   }
+.nav .dropdown dd span{
+       line-height:32px;
+       font-family:icomoon;
+       display:block;
+       position:relative;
+       margin:0 10px;
+   }
+ .nav .dropdown dd span a{
+       color:#fff9f7;
+   }
+ .nav .dropdown dl span i{
+       position:absolute;
+       right:10px;
+
+   }
+.nav .navitems{
+       width: 730px;
+       height: 45px;
+       background-color: #ffffff;
+       position:absolute;
+       top:25px;
+       right:250px;
+   }
+.nav .navitems ul{
+       margin:0 5px;
+   }
+.nav .navitems li{
+       color:#363636;
+       float:left;
+       line-height:45px;
+       margin:0 20px;
+   }
+
+/* footer开始 */
+.footer {
+    height:416px;
+    background-color:#f5f5f5;
+    clear:both;
+
+}
+.footer .mod_service {
+    position:relative;
+    height:110px;
+    border-bottom:1px solid #ececec;
+       
+}
+
+.footer .mod_service li{
+    height:50px; 
+    width: 205px;
+    float:left;
+    margin:30px 0 30px 35px;
+}
+    
+.mod_service li i{
+    display:inline-block;
+    height: 50px;
+    width: 50px;
+    background:url(../img/icons.png) no-repeat;
+}
+.footer li .mod_service_ico_zhen{
+    background-position:-253px -3px;
+}
+.footer li .mod_service_ico_ji{
+    background-position:-253px -53px;
+}
+.footer li .mod_service_ico_wu{
+    background-position:-254px -106px;
+}
+.footer li .mod_service_ico_te{
+    background-position:-258px -157px;
+}
+.footer li .mod_service_ico_bang{
+    background-position:-258px -209px;
+}
+.footer .mod_sevice_box{
+    display: inline-block;
+    position: absolute;
+    top:35px;
+    margin-left:5px;
+   
+}
+.footer .mod_sevice_box h4 {
+    color:#333333;
+    font-size:15px;
+    margin-bottom:8px;
+}
+.footer .mod_sevice_box p {
+    font-size:13px;
+    color:#6a6a6a;
+}
+.footer .mod-help {
+    height:180px;
+    border-bottom:1px solid #ececec;
+}
+.footer .mod_help_boxs{
+    float:left;
+    margin:20px 60px 0 50px; 
+}
+.footer .mod_help_boxs h4 {
+    font-size:13px;
+    color:#2d2d2d;
+    margin-bottom:5px;
+    
+}
+.footer .mod_help_boxs li {
+    font-size:12px;
+    color:#656565;
+    margin-bottom:3px;
+}
+.footer .mod_help_boxs p {
+    font-size:12px;
+    color:#656565;
+    text-align:center;
+}
+.footer .mod-copyright{
+    text-align:center;
+
+}
+
+.footer .mod-copyright li {
+    display:inline-block;
+    line-height:20px;
+    margin-top:20px;
+    margin-bottom:13px;
+    color:#656565;
+    font-size:14px;
+}
+.footer .mod-copyright li .space{
+    display: inline-block;
+    border:1px solid #969696;
+    height:12px;
+    margin:0 12px;
+
+}
+.footer .mod-copyright p {
+    color:#646464;
+    font-size:12px;
+}
+
+
+
+
+/* footer结束 */
